@@ -4,6 +4,7 @@ import com.narxoz.rpg.equipment.Weapon;
 import com.narxoz.rpg.equipment.Armor;
 
 public interface EquipmentFactory {
-    Weapon createWeapon();
-    Armor createArmor();
+
+     Weapon createWeapon();
+     Armor createArmor();
 }
